@@ -10,6 +10,8 @@
 #include <QTimer>
 #include <QMessageBox>
 #include <QPdfWriter>
+#include <QLabel>
+#include <QRectF>
 #include <QPainter>
 #include <QUrl>
 #include <QMessageBox>
@@ -35,6 +37,7 @@ public:
 private slots:
     void on_btnIniciar_clicked();
     void fTimer();
+    void fTimer2();
     void on_btn_Configuracion_clicked();
     void on_btnIniciar_2_clicked();
 
@@ -70,6 +73,8 @@ private slots:
 
     void on_deshacer_clicked();
 
+    void on_CargarJuego_clicked();
+
 private:
     Ui::GameWindow *ui;
     Configuration configuracion ;
@@ -82,7 +87,27 @@ private:
     QString pathColor;
     string colorActual;
     ListaEnlazada *intento = new ListaEnlazada();
-    ListaEnlazada *deshacer = new ListaEnlazada();
+    ListaEnlazada *labels = new ListaEnlazada();
+    int coorX = 330;
+    int coorY = 450;
+
+    int calificacionX = 560;
+    int calificacionY = 460;
+
+    int segundos = 0;
+    int minutos = 0;
+    int horas = 0;
+
+    QLabel *label1;
+    QLabel *label2;
+    QLabel *label3;
+    QLabel *label4;
+
+    QLabel *labelCalificacion;
+    QLabel *labelCalificacion2;
+    QLabel *labelCalificacion3;
+    QLabel *labelCalificacion4;
+    int tope;
 
 };
 #endif // GAMEWINDOW_H

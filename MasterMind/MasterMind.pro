@@ -34,7 +34,9 @@ HEADERS += \
     inicio.h \
     juego.h \
     listaenlazada.h \
-    nodo.h
+    nodo.h \
+    ui_gamewindow.h \
+    ui_inicio.h
 
 FORMS += \
     gamewindow.ui \

@@ -2,12 +2,12 @@
 #define GAME_H
 #include <iostream>
 #include <string>
-//#include <jsoncpp/json/json.h>
 #include <algorithm>
-//#include <jsoncpp/json/writer.h>
 #include <fstream>
-#include <QLabel>
-#include <QRectF>
+#include "listaenlazada.h"
+/*#include <jsoncpp/json/json.h>
+#include <jsoncpp/json/writer.h>*/
+
 
 
 using namespace std;
@@ -21,12 +21,16 @@ public:
     string datePlayed;
     double* timeXPlay;
     int numJugada = 1 ;
+    int level;
     Game(){}
     Game(string name, int level);
     ~Game()   {}
 
     void addTimePlay(double time);
     void saveGame();
+    void loadGame();
+    void saveRecord();
+    ListaEnlazada* loadRecords();
 
     void setDate();
     void setDate(string date);

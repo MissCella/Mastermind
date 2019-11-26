@@ -11,7 +11,7 @@ using namespace std;
 
 class Combinacion
 {
-    string colores[6] = { "Blue", "Red", "Orange", "Yellow", "Green", "Brown" };
+    string colores[6] = { "blue", "red", "orange", "yellow", "green", "purple" };
 
 public:
     string combinacion[4];
