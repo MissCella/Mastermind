@@ -11,5 +11,7 @@
         <file>images/mastermind.png</file>
         <file>images/wallpaper.jpg</file>
         <file>images/circle.png</file>
+        <file>images/guinnes.png</file>
     </qresource>
+    <qresource prefix="/"/>
 </RCC>

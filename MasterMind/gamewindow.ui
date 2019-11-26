@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>751</width>
-    <height>661</height>
+    <width>745</width>
+    <height>648</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -22,8 +22,8 @@
      <rect>
       <x>0</x>
       <y>0</y>
-      <width>771</width>
-      <height>651</height>
+      <width>741</width>
+      <height>611</height>
      </rect>
     </property>
     <property name="currentIndex">
@@ -36,8 +36,8 @@
      <widget class="QLabel" name="label">
       <property name="geometry">
        <rect>
-        <x>0</x>
-        <y>-50</y>
+        <x>-10</x>
+        <y>-230</y>
         <width>771</width>
         <height>851</height>
        </rect>
@@ -69,7 +69,7 @@
       <property name="geometry">
        <rect>
         <x>30</x>
-        <y>130</y>
+        <y>100</y>
         <width>231</width>
         <height>41</height>
        </rect>
@@ -90,8 +90,17 @@ color: rgb(255, 255, 255);</string>
       <property name="text">
        <string>INICIAR JUEGO</string>
       </property>
+      <property name="autoDefault">
+       <bool>false</bool>
+      </property>
+      <property name="default">
+       <bool>false</bool>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_2">
+     <widget class="QPushButton" name="botonVerde">
       <property name="geometry">
        <rect>
         <x>670</x>
@@ -108,6 +117,9 @@ color: rgb(255, 255, 255);</string>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_7">
@@ -129,7 +141,7 @@ color: rgb(255, 255, 255);</string>
        <string/>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_8">
+     <widget class="QPushButton" name="botonRojo">
       <property name="geometry">
        <rect>
         <x>670</x>
@@ -148,11 +160,11 @@ color: rgb(255, 255, 255);</string>
        <string/>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_3">
+     <widget class="QPushButton" name="botonAnaranjado">
       <property name="geometry">
        <rect>
         <x>670</x>
-        <y>530</y>
+        <y>510</y>
         <width>51</width>
         <height>51</height>
        </rect>
@@ -167,7 +179,7 @@ color: rgb(255, 255, 255);</string>
        <string/>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_4">
+     <widget class="QPushButton" name="botonMorado">
       <property name="geometry">
        <rect>
         <x>670</x>
@@ -186,11 +198,11 @@ color: rgb(255, 255, 255);</string>
        <string/>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_9">
+     <widget class="QPushButton" name="botonAmarillo">
       <property name="geometry">
        <rect>
         <x>670</x>
-        <y>460</y>
+        <y>450</y>
         <width>51</width>
         <height>51</height>
        </rect>
@@ -209,7 +221,7 @@ color: rgb(255, 255, 255);</string>
       <property name="geometry">
        <rect>
         <x>30</x>
-        <y>190</y>
+        <y>160</y>
         <width>231</width>
         <height>41</height>
        </rect>
@@ -231,11 +243,11 @@ color: rgb(255, 255, 255);</string>
        <string>TERMINAR JUEGO</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="btnIniciar_4">
+     <widget class="QPushButton" name="deshacer">
       <property name="geometry">
        <rect>
         <x>30</x>
-        <y>250</y>
+        <y>210</y>
         <width>231</width>
         <height>41</height>
        </rect>
@@ -257,7 +269,7 @@ color: rgb(255, 255, 255);</string>
        <string>DESHACER</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="btnIniciar_5">
+     <widget class="QPushButton" name="CargarJuego">
       <property name="geometry">
        <rect>
         <x>30</x>
@@ -283,7 +295,7 @@ color: rgb(255, 255, 255);</string>
        <string>CARGAR JUEGO</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="btnIniciar_6">
+     <widget class="QPushButton" name="guardarJuego">
       <property name="geometry">
        <rect>
         <x>30</x>
@@ -313,17 +325,17 @@ color: rgb(255, 255, 255);</string>
       <property name="geometry">
        <rect>
         <x>10</x>
-        <y>550</y>
+        <y>530</y>
         <width>81</width>
         <height>31</height>
        </rect>
       </property>
      </widget>
-     <widget class="QLabel" name="label_3">
+     <widget class="QLabel" name="level">
       <property name="geometry">
        <rect>
         <x>10</x>
-        <y>440</y>
+        <y>450</y>
         <width>191</width>
         <height>31</height>
        </rect>
@@ -352,8 +364,8 @@ color: rgb(255, 255, 255);</string>
      <widget class="QLCDNumber" name="lcdMinutos">
       <property name="geometry">
        <rect>
-        <x>170</x>
-        <y>550</y>
+        <x>90</x>
+        <y>530</y>
         <width>81</width>
         <height>31</height>
        </rect>
@@ -362,14 +374,14 @@ color: rgb(255, 255, 255);</string>
      <widget class="QLCDNumber" name="lcdSegundos">
       <property name="geometry">
        <rect>
-        <x>90</x>
-        <y>550</y>
+        <x>170</x>
+        <y>530</y>
         <width>81</width>
         <height>31</height>
        </rect>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit">
+     <widget class="QLineEdit" name="NombreJugador">
       <property name="geometry">
        <rect>
         <x>10</x>
@@ -391,1196 +403,192 @@ color: rgb(255, 255, 255);</string>
        <string>Nombre de jugador...</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_4">
-      <property name="geometry">
-       <rect>
-        <x>330</x>
-        <y>310</y>
-        <width>51</width>
-        <height>51</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_5">
-      <property name="geometry">
-       <rect>
-        <x>510</x>
-        <y>310</y>
-        <width>51</width>
-        <height>51</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_6">
-      <property name="geometry">
-       <rect>
-        <x>450</x>
-        <y>310</y>
-        <width>51</width>
-        <height>51</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_7">
-      <property name="geometry">
-       <rect>
-        <x>390</x>
-        <y>310</y>
-        <width>51</width>
-        <height>51</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="scaledContents">
-       <bool>false</bool>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_8">
-      <property name="geometry">
-       <rect>
-        <x>560</x>
-        <y>310</y>
-        <width>41</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_9">
-      <property name="geometry">
-       <rect>
-        <x>590</x>
-        <y>310</y>
-        <width>41</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_10">
-      <property name="geometry">
-       <rect>
-        <x>560</x>
-        <y>340</y>
-        <width>41</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_11">
-      <property name="geometry">
-       <rect>
-        <x>590</x>
-        <y>340</y>
-        <width>41</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_12">
-      <property name="geometry">
-       <rect>
-        <x>390</x>
-        <y>250</y>
-        <width>51</width>
-        <height>51</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="scaledContents">
-       <bool>false</bool>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_13">
-      <property name="geometry">
-       <rect>
-        <x>330</x>
-        <y>250</y>
-        <width>51</width>
-        <height>51</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_14">
-      <property name="geometry">
-       <rect>
-        <x>450</x>
-        <y>250</y>
-        <width>51</width>
-        <height>51</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_15">
-      <property name="geometry">
-       <rect>
-        <x>510</x>
-        <y>250</y>
-        <width>51</width>
-        <height>51</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_16">
-      <property name="geometry">
-       <rect>
-        <x>560</x>
-        <y>280</y>
-        <width>41</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_17">
-      <property name="geometry">
-       <rect>
-        <x>560</x>
-        <y>250</y>
-        <width>41</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_18">
-      <property name="geometry">
-       <rect>
-        <x>590</x>
-        <y>280</y>
-        <width>41</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_19">
-      <property name="geometry">
-       <rect>
-        <x>590</x>
-        <y>250</y>
-        <width>41</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_20">
-      <property name="geometry">
-       <rect>
-        <x>390</x>
-        <y>190</y>
-        <width>51</width>
-        <height>51</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="scaledContents">
-       <bool>false</bool>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_21">
-      <property name="geometry">
-       <rect>
-        <x>330</x>
-        <y>190</y>
-        <width>51</width>
-        <height>51</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_22">
-      <property name="geometry">
-       <rect>
-        <x>450</x>
-        <y>190</y>
-        <width>51</width>
-        <height>51</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_23">
-      <property name="geometry">
-       <rect>
-        <x>510</x>
-        <y>190</y>
-        <width>51</width>
-        <height>51</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_24">
-      <property name="geometry">
-       <rect>
-        <x>560</x>
-        <y>220</y>
-        <width>41</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_25">
-      <property name="geometry">
-       <rect>
-        <x>560</x>
-        <y>190</y>
-        <width>41</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_26">
-      <property name="geometry">
-       <rect>
-        <x>590</x>
-        <y>220</y>
-        <width>41</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_27">
-      <property name="geometry">
-       <rect>
-        <x>590</x>
-        <y>190</y>
-        <width>41</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_28">
-      <property name="geometry">
-       <rect>
-        <x>390</x>
-        <y>130</y>
-        <width>51</width>
-        <height>51</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="scaledContents">
-       <bool>false</bool>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_29">
-      <property name="geometry">
-       <rect>
-        <x>330</x>
-        <y>130</y>
-        <width>51</width>
-        <height>51</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_30">
-      <property name="geometry">
-       <rect>
-        <x>450</x>
-        <y>130</y>
-        <width>51</width>
-        <height>51</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_31">
-      <property name="geometry">
-       <rect>
-        <x>510</x>
-        <y>130</y>
-        <width>51</width>
-        <height>51</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_32">
-      <property name="geometry">
-       <rect>
-        <x>560</x>
-        <y>160</y>
-        <width>41</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_33">
-      <property name="geometry">
-       <rect>
-        <x>560</x>
-        <y>130</y>
-        <width>41</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_34">
-      <property name="geometry">
-       <rect>
-        <x>590</x>
-        <y>160</y>
-        <width>41</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_35">
-      <property name="geometry">
-       <rect>
-        <x>590</x>
-        <y>130</y>
-        <width>41</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_36">
-      <property name="geometry">
-       <rect>
-        <x>390</x>
-        <y>70</y>
-        <width>51</width>
-        <height>51</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="scaledContents">
-       <bool>false</bool>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_37">
-      <property name="geometry">
-       <rect>
-        <x>330</x>
-        <y>70</y>
-        <width>51</width>
-        <height>51</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_38">
-      <property name="geometry">
-       <rect>
-        <x>450</x>
-        <y>70</y>
-        <width>51</width>
-        <height>51</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_39">
-      <property name="geometry">
-       <rect>
-        <x>510</x>
-        <y>70</y>
-        <width>51</width>
-        <height>51</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_40">
-      <property name="geometry">
-       <rect>
-        <x>560</x>
-        <y>100</y>
-        <width>41</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_41">
-      <property name="geometry">
-       <rect>
-        <x>560</x>
-        <y>70</y>
-        <width>41</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_42">
-      <property name="geometry">
-       <rect>
-        <x>590</x>
-        <y>100</y>
-        <width>41</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_43">
-      <property name="geometry">
-       <rect>
-        <x>590</x>
-        <y>70</y>
-        <width>41</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_44">
-      <property name="geometry">
-       <rect>
-        <x>390</x>
-        <y>10</y>
-        <width>51</width>
-        <height>51</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="scaledContents">
-       <bool>false</bool>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_45">
-      <property name="geometry">
-       <rect>
-        <x>330</x>
-        <y>10</y>
-        <width>51</width>
-        <height>51</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_46">
-      <property name="geometry">
-       <rect>
-        <x>450</x>
-        <y>10</y>
-        <width>51</width>
-        <height>51</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_47">
-      <property name="geometry">
-       <rect>
-        <x>510</x>
-        <y>10</y>
-        <width>51</width>
-        <height>51</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_48">
-      <property name="geometry">
-       <rect>
-        <x>560</x>
-        <y>40</y>
-        <width>41</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_49">
-      <property name="geometry">
-       <rect>
-        <x>560</x>
-        <y>10</y>
-        <width>41</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_50">
-      <property name="geometry">
-       <rect>
-        <x>590</x>
-        <y>40</y>
-        <width>41</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_51">
-      <property name="geometry">
-       <rect>
-        <x>590</x>
-        <y>10</y>
-        <width>41</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_52">
-      <property name="geometry">
-       <rect>
-        <x>450</x>
-        <y>370</y>
-        <width>51</width>
-        <height>51</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_53">
-      <property name="geometry">
-       <rect>
-        <x>330</x>
-        <y>430</y>
-        <width>51</width>
-        <height>51</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_54">
-      <property name="geometry">
-       <rect>
-        <x>560</x>
-        <y>430</y>
-        <width>41</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_55">
-      <property name="geometry">
-       <rect>
-        <x>390</x>
-        <y>430</y>
-        <width>51</width>
-        <height>51</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="scaledContents">
-       <bool>false</bool>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_56">
-      <property name="geometry">
-       <rect>
-        <x>330</x>
-        <y>370</y>
-        <width>51</width>
-        <height>51</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_57">
-      <property name="geometry">
-       <rect>
-        <x>560</x>
-        <y>460</y>
-        <width>41</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_58">
-      <property name="geometry">
-       <rect>
-        <x>510</x>
-        <y>370</y>
-        <width>51</width>
-        <height>51</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_59">
-      <property name="geometry">
-       <rect>
-        <x>590</x>
-        <y>460</y>
-        <width>41</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_60">
-      <property name="geometry">
-       <rect>
-        <x>450</x>
-        <y>430</y>
-        <width>51</width>
-        <height>51</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_61">
-      <property name="geometry">
-       <rect>
-        <x>590</x>
-        <y>400</y>
-        <width>41</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_62">
-      <property name="geometry">
-       <rect>
-        <x>560</x>
-        <y>400</y>
-        <width>41</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_63">
-      <property name="geometry">
-       <rect>
-        <x>390</x>
-        <y>370</y>
-        <width>51</width>
-        <height>51</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="scaledContents">
-       <bool>false</bool>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_64">
-      <property name="geometry">
-       <rect>
-        <x>510</x>
-        <y>430</y>
-        <width>51</width>
-        <height>51</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_65">
-      <property name="geometry">
-       <rect>
-        <x>590</x>
-        <y>430</y>
-        <width>41</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_66">
-      <property name="geometry">
-       <rect>
-        <x>590</x>
-        <y>370</y>
-        <width>41</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_67">
-      <property name="geometry">
-       <rect>
-        <x>560</x>
-        <y>370</y>
-        <width>41</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
      <widget class="Line" name="line">
       <property name="geometry">
        <rect>
         <x>625</x>
         <y>0</y>
         <width>41</width>
-        <height>601</height>
+        <height>571</height>
        </rect>
       </property>
       <property name="orientation">
        <enum>Qt::Vertical</enum>
       </property>
      </widget>
-     <widget class="QLabel" name="label_68">
-      <property name="geometry">
-       <rect>
-        <x>590</x>
-        <y>530</y>
-        <width>41</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_69">
-      <property name="geometry">
-       <rect>
-        <x>590</x>
-        <y>560</y>
-        <width>41</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_70">
+     <widget class="QPushButton" name="bton1">
       <property name="geometry">
        <rect>
         <x>330</x>
-        <y>530</y>
+        <y>500</y>
         <width>51</width>
         <height>51</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
+       <string notr="true">border-image: url(:/images/images/circle.png);
+
+</string>
       </property>
       <property name="text">
        <string/>
       </property>
      </widget>
-     <widget class="QLabel" name="label_71">
-      <property name="geometry">
-       <rect>
-        <x>510</x>
-        <y>530</y>
-        <width>51</width>
-        <height>51</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_72">
+     <widget class="QPushButton" name="bton2">
       <property name="geometry">
        <rect>
         <x>390</x>
-        <y>530</y>
+        <y>500</y>
         <width>51</width>
         <height>51</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
+       <string notr="true">border-image: url(:/images/images/circle.png);</string>
       </property>
       <property name="text">
        <string/>
       </property>
-      <property name="scaledContents">
-       <bool>false</bool>
-      </property>
      </widget>
-     <widget class="QLabel" name="label_73">
+     <widget class="QPushButton" name="bton3">
       <property name="geometry">
        <rect>
         <x>450</x>
-        <y>530</y>
+        <y>500</y>
         <width>51</width>
         <height>51</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
+       <string notr="true">border-image: url(:/images/images/circle.png);</string>
       </property>
       <property name="text">
        <string/>
       </property>
      </widget>
-     <widget class="QLabel" name="label_74">
+     <widget class="QPushButton" name="bton4">
       <property name="geometry">
        <rect>
-        <x>560</x>
-        <y>560</y>
-        <width>41</width>
+        <x>510</x>
+        <y>500</y>
+        <width>51</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/images/images/circle.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="califica2">
+      <property name="geometry">
+       <rect>
+        <x>600</x>
+        <y>500</y>
+        <width>21</width>
         <height>21</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
+       <string notr="true">border-image: url(:/images/images/circle.png);</string>
       </property>
       <property name="text">
        <string/>
       </property>
      </widget>
-     <widget class="QLabel" name="label_75">
+     <widget class="QPushButton" name="califica4">
       <property name="geometry">
        <rect>
-        <x>560</x>
+        <x>600</x>
         <y>530</y>
-        <width>41</width>
+        <width>21</width>
         <height>21</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">image: url(:/images/images/circle.png);</string>
+       <string notr="true">border-image: url(:/images/images/circle.png);</string>
       </property>
       <property name="text">
        <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="califica3">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>530</y>
+        <width>21</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/images/images/circle.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="califica1">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>500</y>
+        <width>21</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/images/images/circle.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="NumeroJugada">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>500</y>
+        <width>31</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Microsoft YaHei UI</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>1</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="calificarJugada">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>260</y>
+        <width>231</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Eras Bold ITC</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(138, 74, 39);
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>CALIFICAR  JUGADA</string>
       </property>
      </widget>
     </widget>
@@ -1588,11 +596,106 @@ color: rgb(255, 255, 255);</string>
      <attribute name="title">
       <string>Récords</string>
      </attribute>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>701</width>
+        <height>521</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_2">
+           <item>
+            <widget class="QLabel" name="label_3">
+             <property name="font">
+              <font>
+               <family>Forte</family>
+               <pointsize>20</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>Records mundiales de Master Mind</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="Line" name="line_2">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout">
+             <item>
+              <widget class="QPushButton" name="pushButton_5">
+               <property name="text">
+                <string>Generar Pdf</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="pushButton">
+               <property name="text">
+                <string>Ver Pdf</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="Line" name="line_3">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_76">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="images.qrc">:/images/images/guinnes.png</pixmap>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="Line" name="line_4">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
     </widget>
     <widget class="QWidget" name="Ayuda">
      <attribute name="title">
       <string>Ayuda</string>
      </attribute>
+     <widget class="QPushButton" name="pushButton_6">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>20</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Ver Ayuda</string>
+      </property>
+     </widget>
     </widget>
    </widget>
   </widget>
@@ -1601,13 +704,15 @@ color: rgb(255, 255, 255);</string>
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>751</width>
+     <width>745</width>
      <height>21</height>
     </rect>
    </property>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
- <resources/>
+ <resources>
+  <include location="images.qrc"/>
+ </resources>
  <connections/>
 </ui>

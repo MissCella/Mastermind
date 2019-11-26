@@ -1,0 +1,12 @@
+release/combinacion.o
+release/configuration.o
+release/game.o
+release/inicio.o
+release/juego.o
+release/listaenlazada.o
+release/main.o
+release/gamewindow.o
+release/nodo.o
+release/qrc_images.o
+release/moc_gamewindow.o
+release/moc_inicio.o
